@@ -18,7 +18,7 @@ A lightweight, browser-based Markdown editor and reader. Create Markdown documen
 
 ## Use locally
 
-Open `index.html` in a modern browser. For service-worker/PWA support, serve the project over HTTP:
+Open `index.html` in a modern browser. For service-worker and PWA support, serve the project over HTTP:
 
 ```bash
 python3 -m http.server 8000
@@ -32,9 +32,12 @@ Documents are stored in the browser's `localStorage` on the device and browser p
 
 ## GitHub Pages
 
-The included GitHub Actions workflow automatically configures GitHub Pages and deploys the site whenever changes are pushed to `main`. You can also run the workflow manually from the **Actions** tab.
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions** and save.
+3. Open the **Actions** tab and run **Deploy Markdown Studio to GitHub Pages**, or push another commit to `main`.
+4. When deployment completes, open [Markdown Studio](https://razorjetinz.github.io/markdown-studio/).
 
-Once the first deployment finishes, open [Markdown Studio](https://razorjetinz.github.io/markdown-studio/).
+The workflow deploys the static site from the repository root. No build step is required.
 
 ## License
 
