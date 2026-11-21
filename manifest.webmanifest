@@ -1,0 +1,13 @@
+{
+  "name": "InfiOffice Markdown Studio",
+  "short_name": "Markdown Studio",
+  "description": "A private Markdown editor and reader.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080f1e",
+  "theme_color": "#0b1224",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
