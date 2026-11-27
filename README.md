@@ -1,15 +1,17 @@
 # InfiOffice Markdown Studio
 
-A lightweight, browser-based Markdown editor and reader. Create Markdown documents, edit with a live preview, open existing files, and export standard `.md` files.
+A lightweight, browser-based Markdown editor and reader. Create Markdown documents, edit with a live preview, open existing files, and export your work in common formats.
 
 ## Features
 
 - Create and manage multiple Markdown documents
 - Open `.md`, `.markdown`, `.mdown`, `.mkd`, and `.txt` files
 - Live Markdown preview with headings, emphasis, links, lists, checklists, blockquotes, code blocks, and tables
-- Clean reading mode
+- Five colour themes: Midnight, Light, Ocean, Forest, and Lavender
+- Full-width, distraction-free reading mode
+- Export Markdown, Word (`.docx`), HTML, and plain text
+- Print to paper or save as PDF through the browser's print dialog
 - Formatting toolbar and keyboard shortcuts (`Ctrl/⌘+S`, `Ctrl/⌘+O`, `Ctrl/⌘+B`, `Ctrl/⌘+I`)
-- Export documents as standard Markdown files
 - Drag and drop Markdown or text files
 - Browser-local autosave and recent document list
 - Responsive desktop, tablet, and mobile layout
@@ -28,16 +30,24 @@ Then visit `http://localhost:8000`.
 
 ## Storage and privacy
 
-Documents are stored in the browser's `localStorage` on the device and browser profile where the app is used. They are not synchronised between devices or uploaded to a server. Clearing browser site data can remove locally stored documents. Use **Export .md** to keep independent copies.
+Documents and theme preferences are stored in the browser's `localStorage` on the device and browser profile where the app is used. They are not synchronised between devices or uploaded to a server. Clearing browser site data can remove locally stored documents. Use **Export** to keep independent copies.
+
+## Export formats
+
+- **PDF:** Select PDF to open the browser print dialog, then choose **Save as PDF**.
+- **Word:** Select Word (`.docx`) to download a Microsoft Word-compatible document.
+- **HTML:** Download a standalone HTML document.
+- **Plain text:** Download the rendered document as `.txt`.
+- **Markdown:** Use the Markdown export button to download the original `.md` content.
 
 ## GitHub Pages
 
 1. Open **Settings → Pages** in this repository.
 2. Under **Build and deployment**, set **Source** to **GitHub Actions** and save.
-3. Open the **Actions** tab and run **Deploy Markdown Studio to GitHub Pages**, or push another commit to `main`.
+3. The included workflow deploys automatically whenever changes are pushed to `main`.
 4. When deployment completes, open [Markdown Studio](https://razorjetinz.github.io/markdown-studio/).
 
-The workflow deploys the static site from the repository root. No build step is required.
+No build step is required.
 
 ## License
 
