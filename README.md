@@ -1,6 +1,8 @@
 # SimBizz Markdown Studio
 
-A lightweight, browser-based Markdown editor and reader maintained by **SimBizz Services**. Create Markdown documents, edit with a live preview, open existing files, and export your work in common formats.
+A lightweight, browser-based Markdown editor and reader owned and maintained by **SimBizz Services**. Create Markdown documents, edit with a live preview, open existing files, and export your work in common formats.
+
+> **Free to use, not open source:** Anyone may use the unmodified application without a licence fee. Modification and derivative works are not permitted. The source is publicly viewable, but the software remains proprietary to SimBizz Services.
 
 ## Features
 
@@ -53,9 +55,17 @@ No build step is required.
 
 SimBizz Services develops and maintains Markdown Studio as a browser-based tool for working with Markdown documents. The application stores documents locally in the user's browser and does not upload document content to a server.
 
-## License
+## License and ownership
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+SimBizz Markdown Studio is distributed under the **SimBizz Free Use License**.
+
+- Everyone may download, install, run, and use the unmodified application without a licence fee, including for commercial purposes.
+- Modifying, adapting, or creating derivative versions of the application is not permitted.
+- SimBizz branding and all copyright and ownership notices must remain intact.
+- All ownership of the application, source code, design, and included assets remains with **SimBizz Services**.
+- Documents you create with the application remain your property.
+
+This is a custom proprietary licence, not an OSI-approved open-source licence. Public source-code visibility does not grant modification rights. Read [LICENSE](LICENSE) for the complete terms.
 
 ---
 
