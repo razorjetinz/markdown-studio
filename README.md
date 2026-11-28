@@ -1,6 +1,6 @@
-# InfiOffice Markdown Studio
+# SimBizz Markdown Studio
 
-A lightweight, browser-based Markdown editor and reader. Create Markdown documents, edit with a live preview, open existing files, and export your work in common formats.
+A lightweight, browser-based Markdown editor and reader maintained by **SimBizz Services**. Create Markdown documents, edit with a live preview, open existing files, and export your work in common formats.
 
 ## Features
 
@@ -45,9 +45,13 @@ Documents and theme preferences are stored in the browser's `localStorage` on th
 1. Open **Settings → Pages** in this repository.
 2. Under **Build and deployment**, set **Source** to **GitHub Actions** and save.
 3. The included workflow deploys automatically whenever changes are pushed to `main`.
-4. When deployment completes, open [Markdown Studio](https://razorjetinz.github.io/markdown-studio/).
+4. When deployment completes, open [SimBizz Markdown Studio](https://simbizz-services.github.io/markdown-studio/).
 
 No build step is required.
+
+## About SimBizz
+
+SimBizz Services develops and maintains Markdown Studio as a browser-based tool for working with Markdown documents. The application stores documents locally in the user's browser and does not upload document content to a server.
 
 ## License
 
@@ -55,4 +59,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ---
 
-Made by [InfiOffice](https://infioffice.com).
+© 2026 SimBizz Services.
